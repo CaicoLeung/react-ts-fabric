@@ -1,25 +1,22 @@
 {
-  "name": "@umijs/fabric",
+  "name": "react-ts-fabric",
   "version": "2.10.0",
   "description": "A collection of configuration files containing prettier, eslint, stylelint",
   "keywords": [
     "eslint",
     "prettier",
-    "antd",
-    "ant",
-    "design",
-    "pro"
+    "stylelint"
   ],
-  "homepage": "https://github.com/umijs/fabric#readme",
+  "homepage": "https://github.com/CaicoLeung/react-ts-fabric#readme",
   "bugs": {
-    "url": "https://github.com/umijs/fabric/issues"
+    "url": "https://github.com/CaicoLeung/react-ts-fabric/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/umijs/fabric"
+    "url": "git+https://github.com/CaicoLeung/react-ts-fabric"
   },
   "license": "ISC",
-  "author": "qixian.cs@outlook.com",
+  "author": "lkk1053190902@gmail.com",
   "main": "dist/index.js",
   "bin": {
     "fabric": "./cli.js"
@@ -52,7 +49,7 @@
     "@typescript-eslint/eslint-plugin": "^5.8.1",
     "@typescript-eslint/parser": "^5.9.0",
     "chalk": "^4.1.1",
-    "eslint": "^7.11.0",
+    "eslint": "^8.6.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-formatter-pretty": "^4.0.0",
     "eslint-plugin-babel": "^5.3.0",

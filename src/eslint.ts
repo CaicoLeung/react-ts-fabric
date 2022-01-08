@@ -40,14 +40,12 @@ if (isTsProject) {
 module.exports = {
   extends: ['prettier', 'plugin:react/recommended'],
   parser: '@babel/eslint-parser',
-  plugins: ['react', 'jest', 'unicorn', 'react-hooks'],
+  plugins: ['react', 'react-hooks'],
   env: {
     browser: true,
     node: true,
     es6: true,
     mocha: true,
-    jest: true,
-    jasmine: true,
   },
   rules: {
     strict: ['error', 'never'],
